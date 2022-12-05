@@ -1,4 +1,4 @@
-# Train CIFAR10 with PyTorch
+# Train CIFAR10 with PyTorc
 
 I'm playing with [PyTorch](http://pytorch.org/) on the CIFAR10 dataset.
 
