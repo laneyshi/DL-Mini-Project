@@ -57,7 +57,7 @@ Please use class "BasicBlock1" and "my_ResNet1" and corresponding defination my_
 5.my_ResNet4
 Please use class "BasicBlock1" and "my_ResNet1" and corresponding defination my_ResNet1_0 with block structure in our report.
 
-6.my_ResNet1-C my_ResNet1-C my_ResNet1-C 
+6.my_ResNet1-C my_ResNet2-C my_ResNet3-C 
 All you need to do is re-annotate the code in line 107 in main.py:
 "transform_train.transforms.append(Cutout(1, 8))"
 With this augmentation, all structure from my_ResNet0 to my_ResNet5 can be tested.
