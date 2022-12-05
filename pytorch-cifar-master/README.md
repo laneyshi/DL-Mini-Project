@@ -24,9 +24,9 @@ python main.py --resume --lr=0.01
 | [myResNet2]                                           | 91.7%       |
 | [myResNet3]                                           | 93.2%       |
 | [myResNet4]                                           | 92.2%       |
-| [myResNet0]                                           | 92.3%       |
-| [myResNet0]                                           | 92.1%       |
-| [myResNet0]                                           | 93.4%       |
+| [myResNet1-C]                                           | 92.3%       |
+| [myResNet2-C]                                           | 92.1%       |
+| [myResNet3-C]                                           | 93.4%       |
 
 
 # You can modify the code by annotating, we have the folllowing models in our project with corresponding annotation:
