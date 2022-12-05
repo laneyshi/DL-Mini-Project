@@ -1,4 +1,4 @@
-# Train CIFAR10 with PyTorc
+# Train CIFAR10 with PyTorch
 
 I'm playing with [PyTorch](http://pytorch.org/) on the CIFAR10 dataset.
 
@@ -33,3 +33,30 @@ python main.py --resume --lr=0.01
 | [DPN92](https://arxiv.org/abs/1707.01629)             | 95.16%      |
 | [DLA](https://arxiv.org/pdf/1707.06484.pdf)           | 95.47%      |
 
+# You can modify the code by annotating, we have the folllowing models in our project with corresponding annotation:
+#########################################
+
+All the structures in our project report can be reproduced by properly adjustifying the annotations.
+
+#########################################
+Please re-annotating resnet.py in directory /models when testing with different models:
+
+1.my_ResNet0
+Please use class "my_ResNet0" and corresponding defination my_ResNet0_0 with block structure in our report.
+
+2.my_ResNet1
+Please use class "my_ResNet0" and corresponding defination my_ResNet0_0 with block structure in our report.
+
+3.my_ResNet2
+Please use class "my_ResNet0" and corresponding defination my_ResNet0_0 with block structure in our report.
+
+4.my_ResNet3
+Please use class "BasicBlock1" and "my_ResNet1" and corresponding defination my_ResNet1_0 with block structure in our report.
+
+5.my_ResNet4
+Please use class "BasicBlock1" and "my_ResNet1" and corresponding defination my_ResNet1_0 with block structure in our report.
+
+6.my_ResNet1-C my_ResNet1-C my_ResNet1-C 
+All you need to do is re-annotate the code in line 107 in main.py:
+"transform_train.transforms.append(Cutout(1, 8))"
+With this augmentation, all structure from my_ResNet0 to my_ResNet5 can be tested.
