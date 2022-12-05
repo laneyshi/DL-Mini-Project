@@ -36,12 +36,19 @@ python main.py --resume --lr=0.01
 # You can modify the code by annotating, we have the folllowing models in our project with corresponding annotation:
 ```
 
-All the structures in our project report can be reproduced by properly adjustifying the annotations.
+All the structures in our project report can be reproduced by properly adjustifying the annotations.We only used restnet.py in the Model file.
 
 ```
 
 Please re-annotating resnet.py in directory /models when testing with different models:
+```
 
+Testing different models by changing the code at line 146-148 in main.py
+    # net = my_ResNet0_0()
+    net = my_ResNet1_0()
+    # net = my_ResNet2_0()
+
+```
 1.my_ResNet0
 Please use class "my_ResNet0" and corresponding defination my_ResNet0_0 with block structure in our report.
 
