@@ -34,11 +34,12 @@ python main.py --resume --lr=0.01
 | [DLA](https://arxiv.org/pdf/1707.06484.pdf)           | 95.47%      |
 
 # You can modify the code by annotating, we have the folllowing models in our project with corresponding annotation:
-#########################################
+```
 
 All the structures in our project report can be reproduced by properly adjustifying the annotations.
 
-#########################################
+```
+
 Please re-annotating resnet.py in directory /models when testing with different models:
 
 1.my_ResNet0
